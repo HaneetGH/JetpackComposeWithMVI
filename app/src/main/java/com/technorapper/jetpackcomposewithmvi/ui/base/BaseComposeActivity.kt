@@ -4,4 +4,4 @@ import androidx.activity.ComponentActivity
 import dagger.hilt.android.AndroidEntryPoint
 
 @AndroidEntryPoint
-class BaseComposeActivity: ComponentActivity()
+open class BaseComposeActivity: ComponentActivity()
